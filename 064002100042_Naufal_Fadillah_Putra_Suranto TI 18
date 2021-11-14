@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Nov 14 17:54:18 2021
+
+@author: Naufal Fadillah
+NAME  : Naufal Fadillah Putra Suranto 
+NIM    : 064002100042
+"""
+
+print ("@@   @  @@@@  @   @  @@@@  @@@@  @") 
+print ("@ @  @  @  @  @   @  @     @  @  @")
+print ("@  @ @  @@@@  @   @  @@@@  @@@@  @")    
+print ("@   @@  @  @  @@@@@  @     @  @  @@@")
+
+def main(x):
+    if x %3==0:
+        x**3 
+        print ("hasilnya adalah",x**3)
+    else:
+        cek(num)
+def cek(x):
+    if x %3!=0:
+        print ("false")
+        exit(0)
+num=int(input("masukan nilai: "))
+main(num)
