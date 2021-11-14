@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Nov 14 16:07:39 2021
+
+@author: Naufal Fadillah
+NAME  : Naufal Fadillah Putra Suranto 
+NIM    : 064002100042
+"""
+
+print ("@@   @  @@@@  @   @  @@@@  @@@@  @") 
+print ("@ @  @  @  @  @   @  @     @  @  @")
+print ("@  @ @  @@@@  @   @  @@@@  @@@@  @")    
+print ("@   @@  @  @  @@@@@  @     @  @  @@@")
+
+
+def faktorial(x):
+    faktorial = 1
+    
+    for i in range(1,x + 1):
+        faktorial = faktorial*i
+    print("Faktorial dari",x,"adalah",faktorial)
+num = int(input("nilai: "))
+faktorial(num)
